@@ -40,7 +40,7 @@ const data = {
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
-//sending json 
+//sending JSON
 app.get('/github',(req,res)=> {
   res.json(data)
 })
