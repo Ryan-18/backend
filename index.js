@@ -36,9 +36,11 @@ const data = {
   "created_at": "2023-09-16T03:23:30Z",
   "updated_at": "2024-06-05T15:47:39Z"
 }
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
+//sending json 
 app.get('/github',(req,res)=> {
   res.json(data)
 })
